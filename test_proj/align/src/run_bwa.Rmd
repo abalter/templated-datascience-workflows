@@ -1,0 +1,20 @@
+
+
+# Index
+```{bash}
+bwa index -p chr20 chr20.fa
+```
+
+# Align
+```{bash}
+bwa mem \
+    -M \
+
+    -t 8 \
+    reference_data/chr20 \
+    raw_data/na12878_1.fq raw_data/na12878_2.fq \
+    2> ../logs/bwa.err \
+    > ../results/aligned/na12878.sam
+```
+
+

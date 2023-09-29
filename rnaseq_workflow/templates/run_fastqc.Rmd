@@ -1,0 +1,14 @@
+---
+title: "RNA-Seq: Run Fastqc"
+subtitle: "{{project_title}}"
+author: "Ariel Balter"
+date: "`r format(Sys.time(), '%B %e, %Y')`"
+output:
+  html_notebook:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    number_sections: true
+    theme: default
+---
+

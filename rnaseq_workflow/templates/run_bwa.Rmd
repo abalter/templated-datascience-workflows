@@ -1,0 +1,19 @@
+{{template_header_text}}
+
+# Index
+```{bash}
+bwa index -p chr20 chr20.fa
+```
+
+# Align
+```{bash}
+bwa {{bwa_algorithm}} \
+    {{mark_short_splits}}
+    -t {{num_threads}} \
+    reference_data/chr20 \
+    raw_data/na12878_1.fq raw_data/na12878_2.fq \
+    2> ../logs/bwa.err \
+    > ../results/aligned/na12878.sam
+```
+
+

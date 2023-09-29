@@ -1,0 +1,11 @@
+{{template_header_text}}
+
+
+```{r}
+trim_left = {{trim_left}}
+trim_right = {{trim_right}}
+min_score = {{trim_score}}
+
+str_glue("trim_left: {trim_left}, trim_right: {trim_right}, min_score: {min_score}") %>% print()
+```
+

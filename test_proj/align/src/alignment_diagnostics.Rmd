@@ -1,0 +1,16 @@
+---
+title: "RNA-Seq: Alignment Diagnositcs"
+subtitle: "Test Project"
+author: "Ariel Balter"
+date: "`r format(Sys.time(), '%B %e, %Y')`"
+output:
+  html_notebook:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    number_sections: true
+    theme: default
+---
+
+
+

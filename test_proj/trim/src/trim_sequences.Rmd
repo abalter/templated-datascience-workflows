@@ -1,0 +1,10 @@
+
+
+```{r}
+trim_left = 30
+trim_right = 50
+min_score = 
+
+str_glue("trim_left: {trim_left}, trim_right: {trim_right}, min_score: {min_score}") %>% print()
+```
+
